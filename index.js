@@ -44,6 +44,17 @@ var visualization = d3plus.viz()
   .axes({"ticks":false})
   .draw()
 
+var data = [
+    {"year": 1991, "name":"alpha", "value": 15},
+    {"year": 1991, "name":"beta", "value": 10},
+    {"year": 1991, "name":"gamma", "value": 5},
+    {"year": 1991, "name":"delta", "value": 50},
+    {"year": 1992, "name":"alpha", "value": 20},
+    {"year": 1992, "name":"beta", "value": 10},
+    {"year": 1992, "name":"gamma", "value": 10},
+    {"year": 1992, "name":"delta", "value": 43},
+  ]
+
 //Gráfico de bigotes
 var visualization = d3plus.viz()
   .container("#viz3")
